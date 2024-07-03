@@ -240,9 +240,9 @@ body{
         position: relative;
         font-family: 'Roboto', sans-serif;
         font-weight: 50px;
-        font-size: 21px;
+        font-size: 18px;
         margin-top: 10px;
-        left: 3%;
+        left: 9%;
         letter-spacing: 1px;
         color: white;
     }
@@ -276,7 +276,7 @@ body{
     top: 540px; 
     left: 50%;
     width: 90%;
-    width: 800px;
+    width: 790px;
     height: 160px;
     border-radius: 20px; 
 }
@@ -306,10 +306,10 @@ body{
     
 }
 .address {
-    top: 1040px; 
+    top: 1030px; 
     left: 51%;
-    font-size: 22.2px;
-    letter-spacing: 3.2px;
+    font-size: 20px;
+    letter-spacing: 2px;
     line-height: 40px;
 }
 
@@ -321,7 +321,10 @@ body{
         justify-content: center;
         align-items: center;
         width: 100%;
-        background-color: #f0f0f0;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
         overflow-x: hidden;
         overflow-y: hidden;
     }
@@ -406,7 +409,7 @@ body{
         top: 1200px; 
         left: 50%;
         width: 90%;
-        width: 880px;
+        width: 870px;
         height: 240px;
         border-radius: 20px; 
     }
@@ -437,9 +440,9 @@ body{
     .address {
         top: 2000px; 
         left: 51%;
-        font-size: 22.5px;
-        letter-spacing: 3px;
-        line-height: 50px;
+        font-size: 20px;
+        letter-spacing: 2px;
+        line-height: 40px;
     }
 }
 
@@ -448,7 +451,10 @@ body{
         display: block;
         justify-content: center;
         align-items: center;
-        background-color: #f0f0f0;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
         overflow-x: hidden;
         overflow-y: hidden;
     }
@@ -497,9 +503,9 @@ body{
         position: relative;
         font-family: 'Roboto', sans-serif;
         font-weight: 50px;
-        font-size: 18px;
+        font-size: 16px;
         margin-top: 10px;
-        left: 1%;
+        left: 5%;
         letter-spacing: 1px;
         color: white;
     }
@@ -546,7 +552,7 @@ body{
 
     .icon-grid {
         grid-template-columns: repeat(6, min-content); 
-        left: 13%;
+        left: 15%;
         gap: 3px; 
         top: 860px;
     }
@@ -564,10 +570,10 @@ body{
     }
     .address {
         top: 755px; 
-        left: 50%;
-        font-size: 14px;
-        letter-spacing: 1.5px;
-        line-height: 25px;
+        left: 51%;
+        font-size: 13px;
+        letter-spacing: 1px;
+        line-height: 22px;
     }  
 }
 
@@ -576,10 +582,14 @@ body{
         display: block;
         justify-content: center;
         align-items: center;
-        width: 100%;
-        background-color: #f0f0f0;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
         overflow-x: hidden;
         overflow-y: hidden;
+        margin: 0;
+        padding: 0;
     }
     .image-container {
         position: absolute;
@@ -617,9 +627,9 @@ body{
         position: relative;
         font-family: 'Roboto', sans-serif;
         font-weight: 150px;
-        font-size: 30px;
+        font-size: 28px;
         margin-top: 35px;
-        left: 7%;
+        left: 10%;
         letter-spacing: 1.8px;
         color: white;
     }
@@ -627,10 +637,10 @@ body{
         position: relative;
         font-family: 'Roboto', sans-serif;
         font-weight: 50px;
-        font-size: 20px;
+        font-size: 17px;
         margin-top: 10px;
-        left: 1%;
-        letter-spacing: .5px;
+        left: 8%;
+        letter-spacing: .4px;
         color: white;
     }
     .overlay-grid {
@@ -693,11 +703,11 @@ body{
         
     }
     .address {
-        top: 730px; 
+        top: 729px; 
         left: 50%;
-        font-size: 12px;
-        letter-spacing: 1.2px;
-        line-height: 25px;
+        font-size: 11px;
+        letter-spacing: 1px;
+        line-height: 20px;
     }
 }
 @media screen and (max-width: 412px) { /* 412x915 */
@@ -746,7 +756,7 @@ body{
         font-weight: 150px;
         font-size: 30px;
         margin-top: 35px;
-        left: 4%;
+        left: 3%;
         letter-spacing: 1.8px;
         color: white;
     }
@@ -754,9 +764,9 @@ body{
         position: relative;
         font-family: 'Roboto', sans-serif;
         font-weight: 50px;
-        font-size: 18px;
+        font-size: 14px;
         margin-top: 10px;
-        left: 3%;
+        left: 11%;
         letter-spacing: .5px;
         color: white;
     }
@@ -789,7 +799,7 @@ body{
         top: 480px; 
         left: 50%;
         width: 90%;
-        width: 370px;
+        width: 350px;
         height: 120px;
         border-radius: 20px; 
     }
@@ -803,7 +813,7 @@ body{
 
     .icon-grid {
         grid-template-columns: repeat(6, min-content); 
-        left: 11%;
+        left: 12%;
         gap: 3px; 
         top: 850px;
     }
@@ -822,9 +832,9 @@ body{
     .address {
         top: 755px; 
         left: 50%;
-        font-size: 12px;
-        letter-spacing: 1.3px;
-        line-height: 20px;
+        font-size: 11px;
+        letter-spacing: 1px;
+        line-height: 17px;
     }  
 }
 
@@ -839,6 +849,8 @@ body{
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
+        padding: 0;
+        margin: 0;
         
     }
     .image-container {
@@ -883,7 +895,7 @@ body{
         position: relative;
         font-family: 'Roboto', sans-serif;
         font-weight: 50px;
-        font-size: 18px;
+        font-size: 16px;
         margin-top: 5px;
         left: 0%;
         letter-spacing: .5px;
@@ -951,7 +963,7 @@ body{
         top: 683px; 
         left: 50%;
         font-size: 12px;
-        letter-spacing: 2px;
+        letter-spacing: 1.5px;
         line-height: 25px;
     }
     
@@ -965,6 +977,7 @@ body{
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
+        background-attachment: fixed;
         padding: 0;
         margin: 0;
         overflow-x: hidden;
@@ -1008,7 +1021,7 @@ body{
         font-weight: 150px;
         font-size: 22px;
         margin-top: 17px;
-        left: 2%;
+        left: 3%;
         letter-spacing: 1.8px;
         color: white;
     }
@@ -1016,9 +1029,9 @@ body{
         position: relative;
         font-family: 'Roboto', sans-serif;
         font-weight: 50px;
-        font-size: 14px;
+        font-size: 12px;
         margin-top: 5px;
-        left: 0;
+        left: 6%;
         letter-spacing: .5px;
         color: white;
     }
@@ -1049,22 +1062,22 @@ body{
 
     .rectangle-box {
         top: 325px; 
-        left: 51%;
-        width: 322px;
+        left: 50%;
+        width: 320px;
         height: 78px;
         border-radius: 20px; 
     }
 
     .arani-logo {
         top: 390px; 
-        left: 52%;
+        left: 51%;
         width: 150px;
         height: 150px;
     }
 
     .icon-grid {
         grid-template-columns: repeat(6, min-content); 
-        left: 25%;
+        left: 22%;
         gap: 1px; 
         top: 605px;
     }
@@ -1081,11 +1094,11 @@ body{
         
     }
     .address {
-        top: 528px; 
-        left: 52%;
+        top: 526px; 
+        left: 51%;
         font-size: 12px;
-        letter-spacing: 2px;
-        line-height: 20px;
+        letter-spacing: 1px;
+        line-height: 18px;
     }
 }
 
